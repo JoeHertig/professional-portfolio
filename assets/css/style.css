@@ -29,10 +29,9 @@ header {
 
 header h1 {
   font-weight: bold;
-  margin: -10px;
   color: var(--dark-purple);
   background-color: var(--light-red);
-  font-size: 50px;
+  font-size: 80px;
   margin-left: -50px;
 }
 
@@ -47,16 +46,16 @@ header nav ul {
   justify-content: space-between;
   align-items: center;
   list-style: none;
-  margin: 10px 25px;
+  margin: 30px 90px;
 }
 
 header nav ul li a {
   padding: 10px 5px;
-  font-size: 22px;
+  font-size: 30px;
 }
 
 .header-right {
-  width: 350px;
+  width: 550px;
   text-align: right;
   padding: 5px 7px;
 }
@@ -70,14 +69,6 @@ u {
 /* Header Nav End */
 
 /* Footer Start */
-footer h2 {
-  font-weight: bold;
-  font-size: 40px;
-  border-right: 3px solid;
-  padding: 0 10px;
-  text-align: right;
-}
-
 footer a {
   color: var(--dark-purple);
   text-decoration: none;
@@ -108,11 +99,15 @@ footer u {
   flex-wrap: wrap;
   align-items: center;
 }
+
+#contact-me {
+  margin: 0 191px;
+}
 /* Footer End */
 
 /* All Sections */
-section {
-  padding: 30px;
+.main-padding {
+  padding: 50px 0;
 }
 
 /* Hero/Jumbotron styles */
@@ -128,65 +123,70 @@ section {
 .hero h2 {
   font-weight: bold;
   background-color: var(--light-red);
-  font-size: 40px;
+  font-size: 60px;
   padding: 0 5px;
-  margin: -15px 30px;
+  margin: 0px 30px;
+}
+
+.hero-padding {
+  padding: 30px 100px;
 }
 /* Hero Styles End */
 
 /* About Me Start */
-.side-section {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 80px;
-  width: 90%;
-  padding: 0 4px;
-}
-
-.side-section h2 {
-  font-weight: bold;
-  font-size: 40px;
-  border-right: 3px solid;
-  padding: 0 10px;
-  text-align: right;
-}
-
 .content-inside {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
 }
 
 .content-inside p {
-  padding: 10px 30px;
+  padding: 0 30px;
+}
+
+#about-me {
+  margin: 0 250px;
 }
 /* About Me End */
 
 /* Work Section */
 .work-section {
   width: 100%;
-  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  padding: 0 30px;
 }
 
 .works {
   margin: 7px;
-  flex: 1 40%;
   background: var(--light-red);
   color: var(--dark-purple);
   flex-wrap: wrap;
   border: 5px solid var(--light-red);
 }
 
-.main-works img {
-  width: auto;
-}
-
-.works img {
-  width: 100%;
+.side-section img {
+  width: 250px;
   height: 150px;
 }
 
+.main-works img {
+  width: 100%;
+  height: 850px;
+}
+
+#work {
+  margin: 0 278px;
+}
+
 /* Utilities */
+.side-section {
+  display: flex;
+}
+
+.side-section h2 {
+  font-weight: bold;
+  font-size: 70px;
+  border-right: 3px solid;
+  padding: 0 10px;
+  text-align: right;
+}
