@@ -160,8 +160,6 @@ footer u {
 
 .works {
   margin: 7px;
-  background: var(--light-red);
-  color: var(--dark-purple);
   flex-wrap: wrap;
   border: 5px solid var(--light-red);
 }
@@ -170,7 +168,7 @@ footer u {
   width: 250px;
   height: 150px;
 }
-
+/* Work Section Image Style */
 .buddy-works {
   width: 1790px;
   height: 600px;
@@ -180,6 +178,7 @@ footer u {
   display: flex;
   align-items: flex-end;
 }
+
 .led-works {
   width: 888px;
   height: 250px;
@@ -189,6 +188,7 @@ footer u {
   display: flex;
   align-items: flex-end;
 }
+
 .calculator-works {
   width: 888px;
   height: 250px;
@@ -198,6 +198,7 @@ footer u {
   display: flex;
   align-items: flex-end;
 }
+
 .pastel-works {
   width: 888px;
   height: 250px;
@@ -208,6 +209,7 @@ footer u {
   align-items: flex-end;
   background-position: 80%;
 }
+
 .surf-works {
   width: 888px;
   height: 250px;
@@ -217,6 +219,18 @@ footer u {
   display: flex;
   align-items: flex-end;
 }
+
+.title-section {
+  background-color: var(--light-red);
+  padding: 12px 12px;
+  margin: 20px 0;
+  line-height: 1.5;
+}
+
+.title-section p {
+  text-size: 6px;
+}
+/* End Work Applications Style */
 
 #work {
   margin: 0 282px;
