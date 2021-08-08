@@ -31,7 +31,7 @@ header h1 {
   font-weight: bold;
   color: var(--dark-purple);
   background-color: var(--light-red);
-  font-size: 80px;
+  font-size: 100px;
   margin-left: -50px;
 }
 
@@ -46,7 +46,7 @@ header nav ul {
   justify-content: space-between;
   align-items: center;
   list-style: none;
-  margin: 30px 90px;
+  margin: 50px 150px;
 }
 
 header nav ul li a {
@@ -55,7 +55,7 @@ header nav ul li a {
 }
 
 .header-right {
-  width: 550px;
+  width: 600px;
   text-align: right;
   padding: 5px 7px;
 }
@@ -101,20 +101,20 @@ footer u {
 }
 
 #contact-me {
-  margin: 0 191px;
+  margin: 0 183px;
 }
 /* Footer End */
 
 /* All Sections */
 .main-padding {
-  padding: 50px 0;
+  padding: 25px 0;
 }
 
 /* Hero/Jumbotron styles */
 .hero {
   background-image: url("../images/portfolio-hero.jpg");
   background-size: cover;
-  height: 325px;
+  height: 400px;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
@@ -123,9 +123,9 @@ footer u {
 .hero h2 {
   font-weight: bold;
   background-color: var(--light-red);
-  font-size: 60px;
+  font-size: 70px;
   padding: 0 5px;
-  margin: 0px 30px;
+  margin: 0 100px;
 }
 
 .hero-padding {
@@ -140,7 +140,9 @@ footer u {
 }
 
 .content-inside p {
-  padding: 0 30px;
+  padding: 0 0 0 30px;
+  line-height: 1.5;
+  margin: 7px;
 }
 
 #about-me {
@@ -153,7 +155,7 @@ footer u {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  padding: 0 30px;
+  padding: 0 0 0 30px;
 }
 
 .works {
@@ -169,13 +171,55 @@ footer u {
   height: 150px;
 }
 
-.main-works img {
-  width: 100%;
-  height: 850px;
+.buddy-works {
+  width: 1790px;
+  height: 600px;
+  background-image: url(../images/run-buddy.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+}
+.led-works {
+  width: 888px;
+  height: 250px;
+  background-image: url(../images/led-light.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+}
+.calculator-works {
+  width: 888px;
+  height: 250px;
+  background-image: url(../images/calculator.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+}
+.pastel-works {
+  width: 888px;
+  height: 250px;
+  background-image: url(../images/puzzle.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  background-position: 80%;
+}
+.surf-works {
+  width: 888px;
+  height: 250px;
+  background-image: url(../images/surf.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
 }
 
 #work {
-  margin: 0 278px;
+  margin: 0 282px;
 }
 
 /* Utilities */
@@ -185,7 +229,7 @@ footer u {
 
 .side-section h2 {
   font-weight: bold;
-  font-size: 70px;
+  font-size: 80px;
   border-right: 3px solid;
   padding: 0 10px;
   text-align: right;
