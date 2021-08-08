@@ -51,7 +51,7 @@ header nav ul {
 
 header nav ul li a {
   padding: 10px 5px;
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .header-right {
@@ -163,11 +163,6 @@ footer u {
   flex-wrap: wrap;
   border: 5px solid var(--light-red);
 }
-
-.side-section img {
-  width: 250px;
-  height: 150px;
-}
 /* Work Section Image Style */
 .buddy-works {
   width: 1790px;
@@ -220,6 +215,14 @@ footer u {
   align-items: flex-end;
 }
 
+.buddy-works,
+.led-works,
+.calculator-works,
+.pastel-works,
+.surf-works:hover {
+  opacity: 0.5;
+}
+
 .title-section {
   background-color: var(--light-red);
   padding: 12px 12px;
@@ -228,7 +231,7 @@ footer u {
 }
 
 .title-section p {
-  text-size: 6px;
+  font-size: 16px;
 }
 /* End Work Applications Style */
 
