@@ -163,6 +163,10 @@ footer u {
   flex-wrap: wrap;
   border: 5px solid var(--light-red);
 }
+
+.works img {
+  width: 100%;
+}
 /* Work Section Image Style */
 .buddy-works {
   width: 1790px;
@@ -215,11 +219,7 @@ footer u {
   align-items: flex-end;
 }
 
-.buddy-works,
-.led-works,
-.calculator-works,
-.pastel-works,
-.surf-works:hover {
+a:hover {
   opacity: 0.5;
 }
 
@@ -231,12 +231,13 @@ footer u {
 }
 
 .title-section p {
-  font-size: 16px;
+  font-size: 13px;
 }
 /* End Work Applications Style */
 
 #work {
   margin: 0 282px;
+  width: 100%;
 }
 
 /* Utilities */
@@ -250,4 +251,155 @@ footer u {
   border-right: 3px solid;
   padding: 0 10px;
   text-align: right;
+}
+/* Utilities End */
+
+/* Media Query for smaller desktop screens and smaller */
+@media screen and (max-width: 1600px) {
+  header h1 {
+    font-size: 70px;
+    margin-left: -173px;
+  }
+
+  header nav ul {
+    margin: 37px 87px;
+  }
+
+  header nav ul li a {
+    font-size: 25px;
+  }
+
+  .side-section h2 {
+    font-size: 50px;
+  }
+
+  #contact-me {
+    margin: 0 182px;
+  }
+
+  footer nav ul li a {
+    padding: 10px 17px;
+    font-size: 15px;
+  }
+
+  .hero {
+    height: 300px;
+  }
+
+  .hero h2 {
+    font-size: 40px;
+    margin: 0 36px;
+  }
+
+  #about-me {
+    margin: 0 224px;
+  }
+
+  .content-inside p {
+    font-size: 14px;
+  }
+
+  #work {
+    margin: 0 244px;
+  }
+
+  .buddy-works {
+    width: 1027px;
+    height: 450px;
+  }
+
+  .led-works {
+    width: 507px;
+    height: 180px;
+  }
+
+  .calculator-works {
+    width: 507px;
+    height: 180px;
+  }
+
+  .pastel-works {
+    width: 507px;
+    height: 180px;
+  }
+
+  .surf-works {
+    width: 507px;
+    height: 180px;
+  }
+}
+
+/* Media Query for smaller Desktops */
+@media screen and (max-width: 1117px) {
+  header h1 {
+    font-size: 40px;
+    margin-left: -371px;
+  }
+
+  header nav ul {
+    margin: 17px 47px;
+  }
+
+  header nav ul li a {
+    font-size: 15px;
+  }
+
+  .side-section h2 {
+    font-size: 20px;
+  }
+
+  #contact-me {
+    margin: 0 120px;
+  }
+
+  footer nav ul li a {
+    padding: 10px 10px;
+    font-size: 10px;
+  }
+
+  .hero {
+    height: 200px;
+  }
+
+  .hero h2 {
+    font-size: 40px;
+    margin: 0 -12px;
+  }
+
+  #about-me {
+    margin: 0 136px;
+  }
+
+  .content-inside p {
+    font-size: 11px;
+  }
+
+  #work {
+    margin: 0 144px;
+  }
+
+  .buddy-works {
+    width: 749px;
+    height: 300px;
+  }
+
+  .led-works {
+    width: 367px;
+    height: 145px;
+  }
+
+  .calculator-works {
+    width: 367px;
+    height: 145px;
+  }
+
+  .pastel-works {
+    width: 367px;
+    height: 145px;
+  }
+
+  .surf-works {
+    width: 367px;
+    height: 145px;
+  }
 }
