@@ -337,6 +337,11 @@ a:hover {
     width: 507px;
     height: 180px;
   }
+
+  .project1-works {
+    width: 507px;
+    height: 180px;
+  }
 }
 
 /* Media Query for smaller Desktops */
@@ -409,6 +414,11 @@ a:hover {
   }
 
   .surf-works {
+    width: 367px;
+    height: 145px;
+  }
+
+  .project1-works {
     width: 367px;
     height: 145px;
   }
