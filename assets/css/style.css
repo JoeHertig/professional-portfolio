@@ -229,6 +229,16 @@ footer u {
   align-items: flex-end;
 }
 
+.project2-works {
+  width: 507px;
+  height: 180px;
+  background-image: url(../images/project-2.PNG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+}
+
 a:hover {
   opacity: 0.5;
 }
